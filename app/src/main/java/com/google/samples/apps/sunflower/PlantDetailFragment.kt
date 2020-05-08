@@ -38,6 +38,8 @@ import com.google.samples.apps.sunflower.viewmodels.PlantDetailViewModel
 
 /**
  * A fragment representing a single Plant detail screen.
+ * View的DataBinding类，其实通过Layout生成对应的Binding类，然后使用ViewModel来更新Binding类的变量
+ * 最后触发更新UI层，UI层的改变触发ViewModel的改变就需要使用Adapter
  */
 class PlantDetailFragment : Fragment() {
 
